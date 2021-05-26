@@ -1,0 +1,20 @@
+{
+  "name": "adriana-saucedemo-project",
+  "version": "1.0.0",
+  "description": "Adriana's saucedemo project session 1",
+  "main": "index.js",
+  "scripts": {
+    "test-all-chrome": "testcafe chrome ./adriana_project_pom/tests",
+    "test-login-chrome": "testcafe chrome ./adriana_project_pom/tests/Login.test.js",
+    "test-shoppingCart-chrome": "testcafe chrome ./adriana_project_pom/tests/ShoppingCart.test.js",
+    "test-userInformation-chrome": "testcafe chrome ./adriana_project_pom/tests/UserInformation.test.js",
+    "test-completeOrder-chrome": "testcafe chrome ./adriana_project_pom/tests/CompleteOrder.test.js",
+    "test-login-firefox": "testcafe firefox ./adriana_project_pom/tests/Login.test.js"
+  },
+  "author": "Adriana Trejo",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.14.2"
+  }
+}
