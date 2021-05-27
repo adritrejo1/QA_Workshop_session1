@@ -9,7 +9,19 @@
     "test-shoppingCart-chrome": "testcafe chrome ./adriana_project_pom/tests/ShoppingCart.test.js",
     "test-userInformation-chrome": "testcafe chrome ./adriana_project_pom/tests/UserInformation.test.js",
     "test-completeOrder-chrome": "testcafe chrome ./adriana_project_pom/tests/CompleteOrder.test.js",
-    "test-login-firefox": "testcafe firefox ./adriana_project_pom/tests/Login.test.js"
+
+    "test-all-firefox": "testcafe firefox ./adriana_project_pom/tests",
+    "test-login-firefox": "testcafe firefox ./adriana_project_pom/tests/Login.test.js",
+    "test-shoppingCart-firefox": "testcafe firefox ./adriana_project_pom/tests/ShoppingCart.test.js",
+    "test-userInformation-firefox": "testcafe firefox ./adriana_project_pom/tests/UserInformation.test.js",
+    "test-completeOrder-firefox": "testcafe firefox ./adriana_project_pom/tests/CompleteOrder.test.js",
+
+    "test-all-ie": "testcafe ie ./adriana_project_pom/tests",
+    "test-login-ie": "testcafe ie ./adriana_project_pom/tests/Login.test.js",
+    "test-shoppingCart-ie": "testcafe ie ./adriana_project_pom/tests/ShoppingCart.test.js",
+    "test-userInformation-ie": "testcafe ie ./adriana_project_pom/tests/UserInformation.test.js",
+    "test-completeOrder-ie": "testcafe ie ./adriana_project_pom/tests/CompleteOrder.test.js"
+
   },
   "author": "Adriana Trejo",
   "license": "ISC",
